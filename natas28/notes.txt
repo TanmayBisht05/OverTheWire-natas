@@ -1,0 +1,3 @@
+-> The dummy block is just a random block we shall insert at the 3rd index (1 - indexing) to swap out the block containing escaped character
+
+-> badblock is the block containing 9As + \

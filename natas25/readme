@@ -1,0 +1,18 @@
+Make use of LFI first..
+
+you can bypass the ../ check by passing ....//, with which you can do directory traversal.
+....//logs/natas25_d0g9oc148tmqr2tglbs1oq9o4a.log
+
+
+
+Then, we have to do log poisoning.
+
+The source code is directly pasting the User-Agent in the log file.
+
+Inject php code into User_Agent Header in your request (in the particular session id) ofc 
+
+
+<?php  system("cat /etc/natas_webpass/natas26");    //   ?>
+
+
+( If you dont put the comment symbol, php would raise error)

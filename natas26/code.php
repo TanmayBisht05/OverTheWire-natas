@@ -1,0 +1,17 @@
+<?php
+
+$data="YTo0OntpOjA7YTo0OntzOjI6IngxIjtzOjE6IjEiO3M6MjoieTEiO3M6MToiMSI7czoyOiJ4MiI7czozOiIyNTAiO3M6MjoieTIiO3M6MzoiMjUwIjt9aToxO2E6NDp7czoyOiJ4MSI7czoxOiIxIjtzOjI6InkxIjtzOjE6IjEiO3M6MjoieDIiO3M6MzoiMjUwIjtzOjI6InkyIjtzOjM6IjI1MCI7fWk6MjthOjQ6e3M6MjoieDEiO3M6MToiMSI7czoyOiJ5MSI7czoxOiIxIjtzOjI6IngyIjtzOjM6IjI1MCI7czoyOiJ5MiI7czozOiIyNTAiO31pOjM7YTo0OntzOjI6IngxIjtzOjE6IjEiO3M6MjoieTEiO3M6MToiMSI7czoyOiJ4MiI7czozOiIyMDAiO3M6MjoieTIiO3M6MjoiNTAiO319";
+
+
+
+$needed=unserialize(base64_decode($data));
+
+print_r($needed);
+
+
+
+
+?>
+
+
+
