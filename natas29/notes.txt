@@ -1,0 +1,2 @@
+-> \0 is needed in the exploit, to deceive the interpreter in believing that it has reached the end of string
+
